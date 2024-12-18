@@ -1,15 +1,13 @@
-// import { Redis } from 'ioredis'
-
 import { RedwoodRealtimeOptions } from '@redwoodjs/realtime'
 
 import subscriptions from 'src/subscriptions/**/*.{js,ts}'
 
+// if using a Redis store
+// import { Redis } from 'ioredis'
 // const redisConfig = {
 //   host: 'localhost',
 //   port: 6379,
 // }
-
-// if using a Redis store
 // const publishClient = new Redis(redisConfig)
 // const subscribeClient = new Redis(redisConfig)
 
